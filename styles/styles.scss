@@ -79,6 +79,8 @@ section {
 /* ------------ */
 
 .header {
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     height: 74px;
@@ -114,7 +116,7 @@ section {
     margin-right: 0;
 } */
 
-.navigation__item:first-child {
+.navigation__item:hover {
     color: #FD8558;
 }
 // -----nav----------------------
@@ -258,12 +260,21 @@ section {
     border: none;
     transition: transform 2s, background-color 0.3s;
     white-space: nowrap;
+
+    &:hover {
+        background-color: #bf6342;
+    }
+
+    &__disabled {
+        background: #333;
+        color: #999;
+        &:hover {
+            background-color: #333;
+            color: #999;
+        }
+    }
 }
 
-.button:hover {
-    background-color: #bf6342;
-    transform: translateX(50px);
-}
 
 .button__secondary {
     border: 2px solid #FD8558;

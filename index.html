@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <header class="header">
         <div class="header__container">
             <a href="" class="header__logo">anow</a>
@@ -32,11 +33,11 @@
               </div>
 
             <nav class="navigation">
-                <div class="navigation__item">demos</div>
-                <div class="navigation__item">About us</div>
-                <div class="navigation__item">portfolio</div>
-                <div class="navigation__item">demos</div>
-                <div class="navigation__item ">demos</div>
+                <a class="navigation__item" href="#design">demos</a>
+                <a class="navigation__item" href="#about">About us</a>
+                <a class="navigation__item">portfolio</a>
+                <a class="navigation__item">demos</a>
+                <a class="navigation__item ">demos</a>
             </nav>
 
 
@@ -48,7 +49,7 @@
         </div>
     </header>
 
-    <section class="design">
+    <section class="design" id="design">
         <div class="design__content">
             <h1 class="design__title">
                 design is thinking <br> made visual
@@ -60,7 +61,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="wrapper">
             <h2 class="title-secondary about__title-secondary">about</h2>
             <div class="container">
@@ -216,13 +217,16 @@
                 </div>
                 <textarea class="form__message" name="" id="" cols="30" rows="10" placeholder="Your message*"></textarea>
 
-                <label><input type="checkbox"> I accept the user agreement</label>
+                <label><input class="form__checkbox" type="checkbox"> I accept the user agreement</label>
 
                 <button class="button form__button">Send Message</button>
             </form>
         </div>        
     </section>
     <div class="example"></div>
+
+    <script src="ifElse.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
