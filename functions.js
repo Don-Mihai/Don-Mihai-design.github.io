@@ -1,4 +1,4 @@
-//  Function Declaration
+// //  Function Declaration
 
 // sayHi()
 
@@ -6,7 +6,7 @@
 //     alert( "Привет" );
 // }
 
-// Function Expression
+// // Function Expression
 
 // let sayHi = function() {
 //     alert( "Привет" );
@@ -32,43 +32,43 @@
 
 // const newFunc = wrapRunning
 
-// sayHi(newFunc, 'Здарова!')
+// // sayHi(newFunc, 'Здарова!')
 
-let numbers = prompt('Введите значения');
+// let numbers = prompt('Введите значения');
 
-// суммирует любое количество значений
-const sum = (...numbers) => {
-    // ['5, 5']
-    let result = 0;
+// // суммирует любое количество значений
+// const sum = (...numbers) => {
+//     // ['5, 5']
+//     let result = 0;
 
-    if (typeof numbers[0] === 'string') {
-        let arrOfStringNumbers;
+//     if (typeof numbers[0] === 'string') {
+//         let arrOfStringNumbers;
 
-        if (numbers[0].includes(',')) {
-            arrOfStringNumbers = numbers[0].split(', ');
-        } else {
-            arrOfStringNumbers = numbers[0].split(' ');
-        }
+//         if (numbers[0].includes(',')) {
+//             arrOfStringNumbers = numbers[0].split(', ');
+//         } else {
+//             arrOfStringNumbers = numbers[0].split(' ');
+//         }
 
-        console.log('arrOfStringNumbers', arrOfStringNumbers);
+//         console.log('arrOfStringNumbers', arrOfStringNumbers);
 
-        const arrOfNumbers = arrOfStringNumbers.map(item => Number(item));
+//         const arrOfNumbers = arrOfStringNumbers.map(item => Number(item));
 
-        console.log('arrOfNumbers', arrOfNumbers);
+//         console.log('arrOfNumbers', arrOfNumbers);
 
-        arrOfNumbers.forEach(item => (result = result + item));
-    } else {
-        numbers.forEach(item => (result = result + item));
-    }
+//         arrOfNumbers.forEach(item => (result = result + item));
+//     } else {
+//         numbers.forEach(item => (result = result + item));
+//     }
 
-    return result;
-};
+//     return result;
+// };
 
-console.log(sum(5, 5));
+// console.log(sum(5, 5));
 
-if(arr.length === 0) {
+// if(arr.length === 0) {
     
-}
+// }
 
 
-const SPEED_lIGHT = 30000
+// const SPEED_lIGHT = 30000
