@@ -1,4 +1,5 @@
 const arr = [1, 2, 3, 4, 5, 6, 7, 8,]
+const chaos = [{name: '1'}, {name: '2'}, {name: '3'}, {name: '4'}]
 
 const str = 'asdfasdffasdfasdf'
 
@@ -70,4 +71,18 @@ const str = 'asdfasdffasdfasdf'
 // console.log(arr.reverse())
 
 
-console.log(arr.flat())
+// console.log(arr.flat())
+
+
+
+// метод сортировки
+// console.log(chaos.sort((first, second)=> {
+//     if (first.name > second.name) {
+//         return 1;
+//       }
+//       if (first.name < second.name) {
+//         return -1;
+//       }
+//       // a должно быть равным b
+//       return 0;
+// }))

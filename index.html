@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    
     <header class="header">
         <div class="header__container">
             <a href="" class="header__logo">anow</a>
@@ -24,20 +23,21 @@
                   <span></span>
                 </label>
                 <ul class="menu__box">
-                  <li><a class="menu__item" href="#">Главная</a></li>
-                  <li><a class="menu__item" href="#">Проекты</a></li>
-                  <li><a class="menu__item" href="#">Команда</a></li>
-                  <li><a class="menu__item" href="#">Блог</a></li>
-                  <li><a class="menu__item" href="#">Контакты</a></li>
+                  <li><a class="menu__item" href="#design">Главная</a></li>
+                  <li><a class="menu__item" href="#about">Проекты</a></li>
+                  <li><a class="menu__item" href="#works">Команда</a></li>
+                  <li><a class="menu__item" href="#skills">Блог</a></li>
+                  <li><a class="menu__item" href="#info">Контакты</a></li>
                 </ul>
               </div>
 
             <nav class="navigation">
-                <a class="navigation__item" href="#design">demos</a>
-                <a class="navigation__item" href="#about">About us</a>
-                <a class="navigation__item">portfolio</a>
-                <a class="navigation__item">demos</a>
-                <a class="navigation__item ">demos</a>
+                
+                <a class="navigation__item" href="#about">Проекты</a>
+                <a class="navigation__item" href="#works">Команда</a>
+                <a class="navigation__item" href="#design">Главная</a>
+                <a class="navigation__item" href="#skills">Блог</a>
+                <a class="navigation__item" href="#info">Контакты</a>
             </nav>
 
 
@@ -55,7 +55,7 @@
                 design is thinking <br> made visual
             </h1>
             <div class="buttons">
-                <button class="button">Start Now</button>
+                <button disabled class="button design__button">Start Now</button>
                 <button class="button button__secondary">Start Now</button>
             </div>
         </div>
@@ -121,7 +121,7 @@
         <img class="decor__img" src="images/circle-pink.png" alt="">
         <div class="line"></div>
     </div>
-    <section class="works">
+    <section class="works" id="works">
         <div class="container works__container">
             <div class="works__text-wrap">
                 <div class="title works__title">latest works</div>
@@ -171,7 +171,7 @@
         </div>
     </section>
 
-    <section class="skills container">
+    <section class="skills container" id="skills">
         <div class="skills__text">
             <div class="title">our skills</div>
             <div class="subtitle">modern digital creative agency</div>
@@ -197,7 +197,7 @@
         </div>
     </section>
 
-    <section class="info">
+    <section class="info" id="info">
         <div class="container info__container">
             <div class="info__content">
                 <div class="info__wrap">
@@ -206,7 +206,7 @@
                 </div>
                 <div class="info__wrap">
                     <h4 class="info__title">information</h4>
-                    <p class="info__par">info@yourdomain.com <br> (+68) 12004509</p>
+                    <p class="info__par"><span class="info__email">info@yourdomain.com</span> <br> (+68) 12004509</p>
                 </div>
             </div>
 
@@ -225,13 +225,8 @@
     </section>
     <div class="example"></div>
 
-    <!-- <script src="ifElse.js"></script>
-    <script src="disable.js"></script>
-    <script src="whileForSwitch.js"></script> -->
-    <!-- <script src="script.js"></script> -->
-    <!-- <script src="calc.js"></script> -->
-    <!-- <script src="object.js"></script> -->
-    <script src="methods.js"></script>
+    <script async src="scroll.js"></script>
+    <script async src="form.js"></script> 
 </body>
 
 </html>
